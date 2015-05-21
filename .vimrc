@@ -1,4 +1,3 @@
-"written by T.Noguchi
 
 set number
 set ruler
