@@ -1,10 +1,17 @@
-set number
+"written by T.Noguchi
+
+set number "行番号の表示
 set ruler "カーソルの位置
 syntax on
 set mouse=a
-set showmatch
-set hlsearch
-set showcmd
+set showmatch "対応する括弧の表示
+set hlsearch "検索結果のハイライト表示
+set autoindent "改行時に前行のインデントを継承
+set showcmd "入力中コマンドの表示
+set title "ファイルパスの表示
+set wildmenu "<Tab>によるファイル名補完
+set incsearch "検索ワードの最初の文字を入力した時点で検索開始
+"set list "不可視文字の表示
 set guioptions+=a
 set ttymouse=xterm2
 """""""""""""""""""""""""""
@@ -33,6 +40,11 @@ NeoBundle 'jpalardy/vim-slime'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'nathanaelkane/vim-indent-guides' "coloring indent
+"let g:indent_guides_enable_on_vim_startup = 1 "vim-indent-guides ON
+NeoBundle 'vim-scripts/AnsiEsc.vim' "coloring logfile
+NeoBundle 'bronson/vim-trailing-whitespace' "visualize space
+NeoBundle 'tomtom/tcomment_vim' "コメントのON/OFF切り替え
 "map <C-t> :NERDTreeToggle<CR>
 ""NeoBundle 'https://bitbucket.org/kovisoft/slimv'
 "let g:unite_enable_start_insert=1
