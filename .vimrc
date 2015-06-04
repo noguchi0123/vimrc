@@ -1,4 +1,4 @@
-".vimrc written by T.N. 2015
+".vimrc written by T.N.
 
 set number "行番号の表示
 set ruler "カーソルの位置
