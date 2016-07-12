@@ -1,4 +1,4 @@
-"written by T.Noguchi
+".vimrc written by T.Noguchi
 
 set number "行番号の表示
 set ruler "カーソルの位置
