@@ -78,3 +78,5 @@ set statusline+=%{fugitive#statusline()}
 
 ""Runtime Path Manipulation
 execute pathogen#infect()
+
+""N.T.
