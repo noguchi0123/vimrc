@@ -5,10 +5,9 @@ vimrcの設定
 環境設定の管理用
 
 ### .zshrc
-peco
-https://github.com/peco/peco#demo
-う
-まくいかないとき
+peco <br>
+https://github.com/peco/peco#demo <br>
+うまくいかないとき　<br>
 http://qiita.com/uchiko/items/f6b1528d7362c9310da0
 
 
