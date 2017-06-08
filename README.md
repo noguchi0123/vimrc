@@ -28,3 +28,6 @@ function peco-select-history() {
 zle -N peco-select-history
 bindkey '^r' peco-select-history
 ```
+
+### .ssh/config
+Ed25519は、ツイストしたエドワーズ曲線を用いたエドワーズ曲線電子署名アルゴリズムの実装の一つである。
