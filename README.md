@@ -1,6 +1,6 @@
 # vimrc
 vimrcの設定
 
-##memo
+## memo
 環境設定の管理用
 
