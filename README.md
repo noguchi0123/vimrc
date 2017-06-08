@@ -8,7 +8,8 @@ vimrcの設定
 peco
 http://qiita.com/uchiko/items/f6b1528d7362c9310da0
 
-```rc/.zshrc
+
+```vim:~/.zshrc
 function peco-select-history() {
     local tac
     if which tac > /dev/null; then
