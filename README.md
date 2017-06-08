@@ -6,6 +6,9 @@ vimrcの設定
 
 ### .zshrc
 peco
+https://github.com/peco/peco#demo
+う
+まくいかないとき
 http://qiita.com/uchiko/items/f6b1528d7362c9310da0
 
 
