@@ -1,0 +1,9 @@
+[alias]
+    st  = status
+    cm  = commit
+    cmm = commit -m
+    co  = checkout
+    cp  = cherry-pick
+    b   = branch
+    bm  = branch --merged
+    fp  = !git fetch -p && git bm | grep -v \\* | xargs -I % git branch -d 
