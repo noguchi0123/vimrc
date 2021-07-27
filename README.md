@@ -1,33 +1,19 @@
-# vimrc
-vimrcの設定
-
-## memo
-環境設定の管理用
-
-### .zshrc
-peco <br>
-https://github.com/peco/peco#demo <br>
-うまくいかないとき　<br>
-http://qiita.com/uchiko/items/f6b1528d7362c9310da0
+# dotfiles
+環境設定の管理用レポジトリ
 
 
-```vim:~/.zshrc
-function peco-select-history() {
-    local tac
-    if which tac > /dev/null; then
-        tac="tac"
-    else
-        tac="tail -r"
-    fi
-    BUFFER=$(\history -n 1 | \
-        eval $tac | \
-        peco --query "$LBUFFER")
-    CURSOR=$#BUFFER
-    zle clear-screen
-}
-zle -N peco-select-history
-bindkey '^r' peco-select-history
+## zsh
+
+[zplug](https://github.com/zplug/zplug)をインストールする
+
+```
+brew install zplug
 ```
 
-### .ssh/config
-Ed25519は、ツイストしたエドワーズ曲線を用いたエドワーズ曲線電子署名アルゴリズムの実装の一つである。
+[enhancd](https://github.com/b4b4r07/enhancd)を利用するには以下ののいずれをインストールする
+
+  - [**fzy**](https://github.com/jhawthorn/fzy)
+  - [**percol**](https://github.com/mooz/percol)
+  - [**peco**](https://github.com/peco/peco)
+  - [**fzf**](https://github.com/junegunn/fzf)
+  
